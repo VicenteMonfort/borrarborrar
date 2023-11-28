@@ -4,3 +4,4 @@
 7.- cat Alumnos.txt | grep "Gonz" | awk '{print $1 $2}' | sort -u | wc -l
 8.- sed -i 's/Vicente/Pepe/g' Alumnos.txt
 9.- cat Alumnos.txt | grep 201[0-9]
+10.- cat Alumnos.txt | grep ^J | awk '{print $1 " " $2}' | sort -u
