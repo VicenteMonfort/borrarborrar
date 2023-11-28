@@ -2,3 +2,4 @@
 5.- mv si.txt ./si
 6.- cat Alumnos.txt | awk '{print $1 " " $2 "-" $5}'
 7.- cat Alumnos.txt | grep "Gonz" | awk '{print $1 $2}' | sort -u | wc -l
+8.- sed -i 's/Vicente/Pepe/g' Alumnos.txt
